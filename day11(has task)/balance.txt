@@ -1,0 +1,10 @@
+Sam,1000
+Hari,2000
+james,0
+Gita,0
+adam,0
+drako,0
+brim,0
+gir,0 
+
+#.json

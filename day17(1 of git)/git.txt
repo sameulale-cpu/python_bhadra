@@ -1,0 +1,67 @@
+# GIT: version control system
+# tracking: file, folder
+# branching: (multiple users in same project)
+# Merge
+
+#global configuration
+git config --global user.name "your name"
+git config --global user.email "your email"
+
+#start tracking / git initialize:
+# git init 
+
+# add file to git repo
+git add file_name # add single file
+git add .     # add multiple files
+
+#write log/ wrtie commit
+git commit -m "message"
+
+# view previous commits(logs) 
+git log
+
+# current status of folder 
+git status
+
+# view all Branch 
+git Branch
+
+# create new Branch
+git branch ram
+
+#change/switch branch 
+git checkout branch_name
+git switch branch_name
+
+# rename current branch
+git branch -M new_branch_name
+
+--
+
+
+# merge branch
+git merge branch_name
+
+# add remote repo
+git remote add origin <remote_repo_link>
+
+# update github with local repo
+git push -u origin branch_name
+git push
+git push origin branch_name
+
+# get update from github to local repo
+git pull 
+
+#clones github repo 
+git clone <github_repo_link>
+
+# git initialize, add and commit the python basic folder
+
+
+# clone https://github.com/quietcommitx/sh_demo/
+# create a branch of your name, and switch to  your branch
+# create a file  of your name, and your introduction
+# go to abc file and add a status (DIYA: task completed)
+# push this to github
+# go to pull request and create a pull request
